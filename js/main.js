@@ -8,7 +8,8 @@ function onBallClick() {
     let elBall = document.querySelector('.ball')
     if (gDiameter>400) gDiameter =100 
 
-    gDiameter += 50
+    gDiameter += getRandomInt(20,61)
     elBall.style.height = `${gDiameter}px`
     elBall.style.width = `${gDiameter}px`
+    elBall.style.backgroundColor = `${getRandomColor()}`
 }
