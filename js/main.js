@@ -13,3 +13,5 @@ function onBallClick() {
     elBall.style.width = `${gDiameter}px`
     elBall.style.backgroundColor = `${getRandomColor()}`
 }
+
+// fetch
