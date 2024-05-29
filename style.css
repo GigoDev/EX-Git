@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+
+    margin: auto;
+
+    background-color: red;
+    border-radius: 50%;
+}
