@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family:system-ui;
+    text-align: center;
 }
 
 h1 {
@@ -24,5 +25,7 @@ body {
 
     font-size: 22px;
     font-weight: bold;
+
     border-radius: 50%;
+    transition: 1s;
 }
